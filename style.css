@@ -32,7 +32,7 @@ header {
     margin-bottom: 10px;
     padding: 30px;
     background-color: #00000044;
-    /* width: 100%; */
+    width: auto;
 }
 
 .glass-btn {
