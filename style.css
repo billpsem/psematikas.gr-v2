@@ -196,10 +196,38 @@ a:hover {
     text-decoration: underline;
 }
   
-  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens
 @media (max-width: 600px) {
     .button-container, .empty-space {
       width: 100%;
       height: auto;
     }
+} */
+
+/* Ανάλυση κάτω από 500px */
+@media (max-width: 500px) {
+  .glass-btn {
+      font-size: 18px;
+      /* padding: 10px; */
+  }
+
+  .logo-container {
+    padding-top: 10px;
+    transform: scale(2.3);
+  }
+
+  .empty-space {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .button-container1 {
+    /* padding-top: 10px; */
+    margin-top: 60px;
+    /* transform: scale(0.8); */
+  }
+
+  /* .button-container2 {
+    transform: scale(1);
+  } */
 }
